@@ -8,7 +8,13 @@
 }
 
 body {
-  /* width: auto; */
+}
+
+/* CONTAINERS - CSS */
+
+.page-container {
+  width: 98%;
+  margin: 0 auto;
 }
 
 .nav-container {
@@ -22,65 +28,86 @@ body {
   margin-bottom: 45px;
   font-weight: 600;
 }
-h1 {
-  letter-spacing: 7px;
-  font-size: 30px;
-}
-h1::first-letter {
-}
 
-h1:hover {
-}
-
-.nav-links {
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 25px;
-  color: #ffffff;
-  /* color: black; */
-}
-.nav-links:hover {
-  background-color: #3e6e41;
-}
-
-.page-container {
-  width: 98%;
-  margin: 0 auto;
-}
 .about-container,
 .projects-container {
   width: 95%;
   margin: 0 auto;
   display: flex;
-  /* background-color: #ebfbee; */
   margin-bottom: 35px;
   justify-content: space-between;
   gap: 10px;
   padding: 25px;
   box-shadow: 0px 0px 15px -13px;
 }
-.about-container:hover {
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.img {
+
+.projects-container-small {
+  background-color: #275d2b;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 15px -13px;
+}
+
+footer {
+  text-align: center;
+  background-color: #275d2b;
+  color: white;
+  padding: 6px;
+}
+
+/*! ELEMENTS - CSS (INSIDE CONTAINERS)  !*/
+
+/* NAV BAR - CSS */
+
+.nav-links {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 25px;
+  color: #ffffff;
+}
+.nav-links:hover {
+  background-color: #3e6e41;
+}
+
+/* ABOUT ME - CSS */
+.aboutme-img {
   width: 40%;
   height: auto;
   border-radius: 5px;
 }
-.about-me {
+
+/* PROJECTS CONTAINER SMALL - CSS */
+
+.guessmynum-img {
+  width: 60%;
+  margin: 10px;
+  border-radius: 5px;
 }
-.projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.guessmynum-para {
+  letter-spacing: 1px;
+  font-weight: 400;
 }
-.guessmynumber-img {
-  width: 50%;
+
+/* ELEMENTS - CSS */
+
+h1 {
+  letter-spacing: 7px;
+  font-size: 35px;
 }
+
 h2 {
   display: inline-block;
   text-transform: uppercase;
   margin-bottom: 15px;
   border-bottom: solid 3px;
-  border-right: solid 0.5px;
+  border-right: solid 1px;
   padding: 8px;
   border-radius: 15px;
   letter-spacing: 5px;
@@ -91,18 +118,22 @@ h2::first-letter {
   border-radius: 50%;
   font-weight: 600;
 }
+
+h3 {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: solid 3px;
+  border-top: solid 1px;
+  border-radius: 15px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
 p {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
 }
 strong {
   font-size: 30px;
   color: #275d2b;
-}
-
-footer {
-  text-align: center;
-  background-color: #275d2b;
-  color: white;
-  padding: 6px;
 }
