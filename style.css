@@ -10,7 +10,7 @@
 body {
 }
 
-/* CONTAINERS - CSS */
+/*! CONTAINERS - CSS !*/
 
 .page-container {
   width: 98%;
@@ -38,11 +38,13 @@ body {
   justify-content: space-between;
   gap: 10px;
   padding: 25px;
-  box-shadow: 0px 0px 15px -13px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  border-radius: 5px;
 }
+
 .projects-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .projects-container-small {
@@ -52,13 +54,15 @@ body {
   grid-template-columns: 1fr;
   padding: 5px;
   text-align: center;
-  box-shadow: 0px 0px 15px -13px;
+  border-radius: 5px;
+}
+.projects-container-small:hover {
 }
 
 footer {
   text-align: center;
   background-color: #275d2b;
-  color: white;
+  color: #ffffff;
   padding: 6px;
 }
 
@@ -77,6 +81,7 @@ footer {
 }
 
 /* ABOUT ME - CSS */
+
 .aboutme-img {
   width: 40%;
   height: auto;
@@ -86,10 +91,12 @@ footer {
 /* PROJECTS CONTAINER SMALL - CSS */
 
 .guessmynum-img {
-  width: 60%;
+  width: 70%;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
 }
+
 .guessmynum-para {
   letter-spacing: 1px;
   font-weight: 400;
@@ -136,4 +143,10 @@ p {
 strong {
   font-size: 30px;
   color: #275d2b;
+}
+
+/* TEMPORARY CSS */
+
+.inprogress {
+  align-self: center;
 }
