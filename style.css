@@ -7,9 +7,6 @@
   font-family: "Fredoka";
 }
 
-body {
-}
-
 /*! CONTAINERS - CSS !*/
 
 .page-container {
@@ -38,7 +35,7 @@ body {
   justify-content: space-between;
   gap: 10px;
   padding: 25px;
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 3px rgba(33, 33, 33, 0.2);
   border-radius: 5px;
 }
 
@@ -154,4 +151,5 @@ strong {
 
 .inprogress {
   align-self: center;
+  color: #275d2b;
 }
