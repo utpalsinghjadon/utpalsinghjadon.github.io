@@ -57,7 +57,7 @@ body {
   border-radius: 5px;
 }
 .projects-container-small:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 12px rgba(33, 33, 33, 0.2);
   /* background-color: #d3f9d8; */
 }
 
@@ -100,8 +100,10 @@ footer {
 }
 
 .guessmynum-para {
+  text-decoration: none;
+  color: black;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
 }
 
