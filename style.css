@@ -75,7 +75,7 @@ footer {
   border-radius: 25px;
   color: #ffffff;
 }
-.nav-links:hover {
+.nav-blog-link:hover {
   background-color: #3e6e41;
 }
 
@@ -145,6 +145,17 @@ p {
 strong {
   font-size: 30px;
   color: #275d2b;
+}
+
+/* Dark Mode Button - CSS */
+
+.darklighttoggle {
+  background-color: #275d2b;
+  padding: 0;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /* TEMPORARY CSS */
