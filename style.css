@@ -17,12 +17,13 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid;
+  border-bottom: 0.1rem solid;
   background-color: #275d2b;
-  padding: 15px 5px;
+  /* background-color: #004225; */
+  padding: 1rem 0.45rem;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 45px;
+  margin-bottom: 3rem;
   font-weight: 600;
 }
 
@@ -31,12 +32,12 @@
   width: 95%;
   margin: 0 auto;
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 2rem;
   justify-content: space-between;
-  gap: 10px;
-  padding: 25px;
-  box-shadow: 0 0 3px rgba(33, 33, 33, 0.2);
-  border-radius: 5px;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 0.1rem rgba(33, 33, 33, 0.2);
+  border-radius: 0.5rem;
 }
 
 .projects-container {
@@ -45,24 +46,23 @@
 }
 
 .projects-container-small {
-  /* background-color: #275d2b; */
-  /* color: #ffffff; */
+
   display: grid;
   grid-template-columns: 1fr;
-  padding: 5px;
+  padding: 0.5rem;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 .projects-container-small:hover {
-  box-shadow: 0 0 12px rgba(33, 33, 33, 0.2);
-  /* background-color: #d3f9d8; */
+  box-shadow: 0 0 1rem -0.5rem ;
 }
 
 footer {
   text-align: center;
-  background-color: #275d2b;
-  color: #ffffff;
-  padding: 6px;
+  /* background-color: #275d2b; */
+  color: #275d2b;
+  padding:0.5rem ;
+  font-weight: 700;
 }
 
 /*! ELEMENTS - CSS (INSIDE CONTAINERS)  !*/
@@ -71,8 +71,8 @@ footer {
 
 .nav-links {
   text-decoration: none;
-  padding: 10px;
-  border-radius: 25px;
+  padding: 0.6rem;
+  border-radius: 1rem;
   color: #ffffff;
 }
 .nav-blog-link:hover {
@@ -84,42 +84,42 @@ footer {
 .aboutme-img {
   width: 40%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 /* PROJECTS CONTAINER SMALL - CSS */
 
 .guessmynum-img {
   width: 70%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.5rem;
 }
 
 .guessmynum-para {
   text-decoration: none;
   color: black;
-  letter-spacing: 1px;
+  letter-spacing: 0.08rem;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 /* ELEMENTS - CSS */
 
 h1 {
-  letter-spacing: 7px;
-  font-size: 35px;
+  letter-spacing: 0.6rem;
+  font-size: 2rem;
 }
 
 h2 {
   display: inline-block;
   text-transform: uppercase;
-  margin-bottom: 15px;
-  border-bottom: solid 3px;
-  border-right: solid 1px;
-  padding: 8px;
-  border-radius: 15px;
-  letter-spacing: 5px;
+  margin-bottom: 1rem;
+  border-bottom: solid 0.1rem;
+  border-right: solid 0.07rem;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  letter-spacing: 0.3rem;
 }
 h2::first-letter {
   background-color: #275d2b;
@@ -128,35 +128,17 @@ h2::first-letter {
   font-weight: 600;
 }
 
-h3 {
-  display: inline-block;
-  font-size: 20px;
-  border-bottom: solid 3px;
-  border-top: solid 1px;
-  border-radius: 15px;
-  padding: 8px;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
 p {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 strong {
-  font-size: 30px;
+  font-size: 2rem;
   color: #275d2b;
 }
 
 /* Dark Mode Button - CSS */
 
-.darklighttoggle {
-  background-color: #275d2b;
-  padding: 0;
-  border: 0;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 16px;
-}
 
 /* TEMPORARY CSS */
 
@@ -164,3 +146,4 @@ strong {
   align-self: center;
   color: #275d2b;
 }
+
