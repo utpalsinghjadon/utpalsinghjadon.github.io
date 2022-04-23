@@ -6,12 +6,16 @@
   box-sizing: border-box;
   font-family: "Fredoka";
 }
+body{
+  
+}
 
 /*! CONTAINERS - CSS !*/
 
 .page-container {
   width: 98%;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .nav-container {
@@ -54,7 +58,7 @@
   border-radius: 0.5rem;
 }
 .projects-container-small:hover {
-  box-shadow: 0 0 1rem -0.5rem ;
+  box-shadow: 0 0 1rem -0.5rem rgba(33, 33, 33, 0.2);
 }
 
 footer {
@@ -135,6 +139,12 @@ p {
 strong {
   font-size: 2rem;
   color: #275d2b;
+}
+
+@media(max-width : 500px ){
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  } 
 }
 
 /* Dark Mode Button - CSS */
