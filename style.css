@@ -6,9 +6,9 @@
   box-sizing: border-box;
   font-family: "Fredoka";
 }
-body{
+/* body{
   
-}
+} */
 
 /*! CONTAINERS - CSS !*/
 
@@ -58,7 +58,8 @@ body{
   border-radius: 0.5rem;
 }
 .projects-container-small:hover {
-  box-shadow: 0 0 1rem -0.5rem rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 1rem 0.5rem rgba(33, 33, 33, 0.2);
+  /* transform: scale(1.1); */
 }
 
 footer {
@@ -98,14 +99,6 @@ footer {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   border-radius: 0.5rem;
-}
-
-.guessmynum-para {
-  text-decoration: none;
-  color: black;
-  letter-spacing: 0.08rem;
-  font-weight: 600;
-  font-size: 0.8rem;
 }
 
 /* ELEMENTS - CSS */
@@ -149,6 +142,32 @@ strong {
 
 /* Dark Mode Button - CSS */
 
+
+.darkmode-button{
+  color: #ffffff;
+  background-color:#275d2b;
+  border: 0;
+  padding: 0.6rem;
+  border-radius: 25px;
+  
+}
+.darkmode-button:hover{
+  background-color: #3e6e41;
+  border-radius: 1rem;
+}
+
+.darkmode{
+  background-color: #212529;
+  color: #ffffff;
+  
+}
+.darkmode-body{
+  background-color: #343a40;
+  color: #fff;
+}
+.darkmode-body:hover{
+  box-shadow: 0 0 1rem -0.5rem #fff;
+}
 
 /* TEMPORARY CSS */
 
