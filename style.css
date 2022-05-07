@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Fredoka";
 }
+
 /* body{
   
 } */
@@ -31,8 +32,7 @@
   font-weight: 600;
 }
 
-.about-container,
-.projects-container {
+.about-container {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -47,26 +47,31 @@
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 0.1rem rgba(33, 33, 33, 0.2);
+  border-radius: 0.5rem;
 }
 
 .projects-container-small {
-
   display: grid;
   grid-template-columns: 1fr;
   padding: 0.5rem;
   text-align: center;
   border-radius: 0.5rem;
 }
+
 .projects-container-small:hover {
   box-shadow: 0 0 1rem 0.5rem rgba(33, 33, 33, 0.2);
-  /* transform: scale(1.1); */
 }
 
 footer {
   text-align: center;
-  /* background-color: #275d2b; */
   color: #275d2b;
-  padding:0.5rem ;
+  padding: 0.5rem;
   font-weight: 700;
 }
 
@@ -80,6 +85,7 @@ footer {
   border-radius: 1rem;
   color: #ffffff;
 }
+
 .nav-blog-link:hover {
   background-color: #3e6e41;
 }
@@ -118,6 +124,7 @@ h2 {
   border-radius: 0.7rem;
   letter-spacing: 0.3rem;
 }
+
 h2::first-letter {
   background-color: #275d2b;
   color: white;
@@ -129,43 +136,47 @@ p {
   font-weight: 600;
   font-size: 1rem;
 }
+
 strong {
   font-size: 2rem;
   color: #275d2b;
 }
 
-@media(max-width : 500px ){
+@media(max-width : 500px) {
   .projects-container {
     grid-template-columns: 1fr 1fr;
-  } 
+  }
 }
 
 /* Dark Mode Button - CSS */
 
 
-.darkmode-button{
+.darkmode-button {
   color: #ffffff;
-  background-color:#275d2b;
+  background-color: #275d2b;
   border: 0;
   padding: 0.6rem;
   border-radius: 25px;
-  
+
 }
-.darkmode-button:hover{
+
+.darkmode-button:hover {
   background-color: #3e6e41;
   border-radius: 1rem;
 }
 
-.darkmode{
+.darkmode {
   background-color: #212529;
   color: #ffffff;
-  
+
 }
-.darkmode-body{
+
+.darkmode-body {
   background-color: #343a40;
   color: #fff;
 }
-.darkmode-body:hover{
+
+.darkmode-body:hover {
   box-shadow: 0 0 1rem -0.5rem #fff;
 }
 
@@ -175,4 +186,3 @@ strong {
   align-self: center;
   color: #275d2b;
 }
-
