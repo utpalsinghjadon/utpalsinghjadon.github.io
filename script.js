@@ -17,6 +17,4 @@ darkModeButton.addEventListener('click', function () {
     }
 })
 
-// setTimeout(function () {
-//     roles.textContent = 'Front End Designer'
-// }, 2000)
+
